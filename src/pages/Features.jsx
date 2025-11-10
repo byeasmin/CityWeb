@@ -465,7 +465,7 @@ const Features = () => {
       icon: <img src={Relocation} alt="Relocation" className="h-13 w-15 rounded-lg" />,
       title: "Suggested Relocation Destination",
       description: "Leverage AI-driven analysis of environmental quality, livability, and infrastructure to recommend the best relocation destinations for individuals and families.",
-      link: "/features/urban-health",
+      link: "/features/relocation",
       benefits: ["AI-based city ranking system", "Personalized relocation suggestions", "Environmental and livability comparison"]
     }
   ]
