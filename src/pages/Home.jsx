@@ -393,7 +393,7 @@ const Home = () => {
       link: "/features/co2-emissions"
     },
     {
-      icon: <img src={prediction} alt="prediction" className="h-16 w-16 rounded-lg" />,
+      icon: <img src={prediction} alt="prediction" className="h-20 w-20 rounded-lg" />,
       title: "AI Environmental Intelligence",
       description: "Analyze urban environment patterns using advanced AI algorithms.",
       link: "/ai-intelligence"
@@ -405,13 +405,13 @@ const Home = () => {
       link: "/features/air-quality"
     },
     {
-      icon: <img src={livability} alt="livability" className="h-16 w-16 rounded-lg" />,
+      icon: <img src={livability} alt="livability" className="h-10 w-10 rounded-lg" />,
       title: "Livability & Habitable Score",
       description: "Measure how livable and sustainable different areas are for residents.",
       link: "/features/livability-score"
     },
     {
-      icon: <img src={Drainage} alt="Drainage" className="h-16 w-16 rounded-lg" />,
+      icon: <img src={Drainage} alt="Drainage" className="h-15 w-15 rounded-lg" />,
       title: "Smart Drainage Management",
       description: "Predict and visualize waterlogging risks with intelligent analysis.",
       link: "/features/smart-drainage"
@@ -444,7 +444,7 @@ const Home = () => {
             <h1 className="text-5xl md:text-7xl font-bold text-emerald-900 mb-6">
               Smart <span className="text-emerald-600"><span className="bg-gradient-to-r from-green-700 via-emerald-600 to-lime-500 bg-clip-text text-transparent">Environmental</span></span><br />Intelligence
             </h1>
-            <p className="text-xl md:text-2xl text-emerald-700 mb-8 max-w-4xl leading-relaxed">
+            <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-4xl leading-relaxed">
               Empowering cities with AI-driven insights for sustainable urban development. 
               Monitor, analyze, and optimize environmental conditions for a better tomorrow.
             </p>

@@ -193,7 +193,9 @@ const AirQuality = () => {
         {/* Header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center justify-center w-20 h-20 text-emerald-900 rounded-2xl mb-6">
-            <Wind className="h-20 w-20" />
+            {/* <Wind className="h-20 w-20" /> */}
+            <img src="/src/assets/icon3.png" alt="airQuality" className="h-30 w-30" />
+
           </div>
           <h1 className="text-4xl md:text-6xl font-bold text-emerald-900 mb-6">
             <span className="bg-gradient-to-r from-green-700 via-emerald-600 to-lime-500 bg-clip-text text-transparent">Air Quality</span><span className="text-blue-600"> <span className="bg-gradient-to-r from-emerald-900 via-emerald-900 to-emerald-900 bg-clip-text text-transparent">Index</span></span>

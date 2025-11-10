@@ -459,7 +459,8 @@ const CO2Emissions = () => {
         {/* Header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center justify-center w-20 h-20 text-emerald-900 rounded-full mb-6">
-            <Sun className="h-20 w-20" />
+            {/* <Sun className="h-20 w-20" /> */}
+            <img src="/src/assets/icon1.png" alt="SunImage" className="h-30 w-30" />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold text-emerald-900 mb-6">
             CO₂ Emissions & 

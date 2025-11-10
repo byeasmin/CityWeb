@@ -750,7 +750,8 @@ const AIIntelligence = () => {
         <div className="text-center mb-12">
           {/* <div className="inline-flex items-center justify-center w-20 h-20 bg-green-400 text-black rounded-2xl mb-6"> */}
           <div className="inline-flex items-center justify-center w-20 h-20 text-emerald-900 rounded-2xl mb-6">
-            <Brain className="h-20 w-20" />
+            {/* <Brain className="h-20 w-20" /> */}
+            <img src="/src/assets/icon2.png" alt="Prediction" className="h-30 w-30" />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold text-emerald-900 mb-6">
             Predict <span className="bg-gradient-to-r from-green-700 via-emerald-600 to-lime-500 bg-clip-text text-transparent">Eco Insights</span>
