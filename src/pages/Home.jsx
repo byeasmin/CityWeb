@@ -382,7 +382,7 @@ import airQuality from '../assets/icon3.png'
 import livability from '../assets/icon_4.png'  
 import Drainage from '../assets/icon_5.png'  
 import Relocation from '../assets/icon6.png'  
-import heroIllustration from '../assets/hero_illustration.png' // Add your hero illustration here
+import heroIllustration from '../assets/hero_illustration.png'
 
 const Home = () => {
   const features = [

@@ -1,6 +1,6 @@
 import { Heart, Activity, TrendingUp, Zap } from 'lucide-react'
 
-const UrbanHealth = () => {
+const Relocation = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-lime-100 via-emerald-100 to-green-50 py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -88,4 +88,4 @@ const UrbanHealth = () => {
   )
 }
 
-export default UrbanHealth
+export default Relocation

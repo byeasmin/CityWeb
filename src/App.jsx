@@ -9,12 +9,13 @@ import AIIntelligence from './pages/features/AIIntelligence'
 import AirQuality from './pages/features/AirQuality'
 import LivabilityScore from './pages/features/LivabilityScore'
 import SmartDrainage from './pages/features/SmartDrainage'
-import UrbanHealth from './pages/features/UrbanHealth'
+import Relocation from './pages/features/Relocation'
 import About from './pages/About'
 import Team from './pages/Team'
 import Contact from './pages/Contact'
 import Login from './pages/Login'
 import Signup from './pages/Signup'
+// import Relocation from './pages/features/Relocation'
 
 function App() {
   return (
@@ -30,7 +31,7 @@ function App() {
             <Route path="/features/air-quality" element={<AirQuality />} />
             <Route path="/features/livability-score" element={<LivabilityScore />} />
             <Route path="/features/smart-drainage" element={<SmartDrainage />} />
-            <Route path="/features/urban-health" element={<UrbanHealth />} />
+            <Route path="/features/relocation" element={<Relocation />} />
             <Route path="/about" element={<About />} />
             <Route path="/team" element={<Team />} />
             <Route path="/contact" element={<Contact />} />
