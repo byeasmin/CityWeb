@@ -73,7 +73,7 @@ const Signup = () => {
       <div className="max-w-md w-full space-y-8">
         <div className="text-center">
           <div className="inline-flex items-center justify-center w-16 h-16 text-emerald-900 rounded-xl mb-6">
-            <UserPlus className="h-10 w-10" />
+            <img src="/src/assets/create.png" alt="Create" className="h-15 w-15" />
           </div>
           <h2 className="text-3xl font-bold text-gray-900 mb-2"> <span className="bg-gradient-to-r from-green-700 via-emerald-900 to-lime-500 bg-clip-text text-transparent">Create Account</span></h2>
           <p className="text-gray-600">Join CityWeb and start building smarter cities</p>

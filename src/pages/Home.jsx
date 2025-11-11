@@ -394,7 +394,7 @@ const Home = () => {
     },
     {
       icon: <img src={prediction} alt="prediction" className="h-20 w-20 rounded-lg" />,
-      title: "AI Environmental Intelligence",
+      title: "Pridict Eco Insights",
       description: "Analyze urban environment patterns using advanced AI algorithms.",
       link: "/ai-intelligence"
     },

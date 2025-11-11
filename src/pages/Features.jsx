@@ -435,7 +435,7 @@ const Features = () => {
     },
     {
       icon: <img src={prediction} alt="prediction" className="h-35 w-35 rounded-lg" />,
-      title: "AI Environmental Intelligence",
+      title: "Predict Eco Insights",
       description: "Leverage advanced AI algorithms to analyze urban environment patterns and predict future trends.",
       link: "/ai-intelligence",
       benefits: ["Pattern recognition", "Predictive analytics", "Smart recommendations"]
